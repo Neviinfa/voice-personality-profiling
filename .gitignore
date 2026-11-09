@@ -1,0 +1,18 @@
+﻿venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+data/AudioWAV/
+data/AudioWAV_Clean/
+data/test_audio/
+
+# Feature datasets - exclude by default
+features/*.csv
+
+# Required by app.py for feature column order
+!features/enhanced_train.csv
+
+# Temporary files
+*.log
+.DS_Store
