@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 venv/
 __pycache__/
 *.py[cod]
@@ -9,3 +10,23 @@ features/
 reports/
 models/*
 !models/svm_ravdess_vad_pca.pkl
+=======
+﻿venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+data/AudioWAV/
+data/AudioWAV_Clean/
+data/test_audio/
+
+# Feature datasets - exclude by default
+features/*.csv
+
+# Required by app.py for feature column order
+!features/enhanced_train.csv
+
+# Temporary files
+*.log
+.DS_Store
+>>>>>>> 5c34cc7ee0a525832d3d857799649c69aff2792c
